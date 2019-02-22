@@ -1,4 +1,4 @@
-# awesome-tools
+# 资源收集
 
 学习网站：
 
@@ -8,11 +8,15 @@
 
 + [鸠摩搜书](https://www.jiumodiary.com) ---- pdf/epub/txt等主流格式
 
-linux 工具：
+linux相关：
 
 + [linux工具教程](https://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html) ---- 1. 文件管理、文本处理和性能监控等基本命令，2. 程序构建、调试和优化等进阶内容, 3. 常用工具参考
 
-makefile 指南：
++ [linux命令搜索](https://jslite.oschina.io/linux-command/)
+
++ [鸟哥私房菜](http://linux.vbird.org/linux_server/)
+
+构建工具：
 
 + [跟我一起学makefile](http://scc.qibebt.cas.cn/docs/linux/base/%B8%FA%CE%D2%D2%BB%C6%F0%D0%B4Makefile-%B3%C2%F0%A9.pdf) ---- 覆盖语法、函数和规范等
 
@@ -28,6 +32,12 @@ makefile 指南：
 github：
 
 + [插件推荐](https://blog.csdn.net/poem_of_sunshine/article/details/77894438)
+
+制图软件：
+
++ [draw.io](https://www.draw.io) ---- 国外研发
++ [processon](https://processon.com) ---- 国内研发
++ [百度脑图](http://naotu.baidu.com)
 
 在线练习：
 
