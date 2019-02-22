@@ -10,7 +10,7 @@
 
 linux相关：
 
-+ [linux工具教程](https://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html) ---- 1. 文件管理、文本处理和性能监控等基本命令，2. 程序构建、调试和优化等进阶内容, 3. 常用工具参考
++ [linux工具教程](https://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html) ---- 1. 文件管理、文本处理和性能监控等基本命令，2. 程序构建、调试和优化等进阶内容, 3. 常用工具参考
 
 + [linux命令搜索](https://jslite.oschina.io/linux-command/)
 
