@@ -1,7 +1,7 @@
-## 安装brew（需要翻墙）
-
+## 安装brew（需要vpn----下载ShadowsocksX-NG.app.1.8.2.zip，解压进行配置）
 ```
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/instal
+（安装日志输出类似brew-install.log）
 ```
 
 ## 卸载 brew
@@ -41,18 +41,17 @@ brew cask install iterm2
 brew install git
 ```
 
-## 安装oh-my-zsh
+## 安装和配置oh-my-zsh
 ```
-curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | ZSH=~/.dotfiles/zsh sh
+    * 下载安装
+    curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | ZSH=~/.dotfiles/zsh sh
 
-# 更改默认shell
-chsh -s /bin/zsh
-```
+    * 更改默认shell
+    chsh -s /bin/zsh
 
-## 配置zsh 插件
-```
-cd ~/.oh-my-zsh/custom/plugins
-```
+    * 进入插件目录
+    cd ~/.oh-my-zsh/custom/plugins
+
     * 声明高亮
     git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 
@@ -60,9 +59,8 @@ cd ~/.oh-my-zsh/custom/plugins
     git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 
     * vi ~/.zshrc打开配置文件，进行配置        
-        plugins=(git zsh-autosuggestions zsh-syntax-highlighting)   # 更新插件
+        plugins=(git autojump zsh-autosuggestions zsh-syntax-highlighting)   # 更新插件， autojump为plugins目录下已有插件
         ZSH_THEME="ys"  # 设置主题
-
 ```
 
 ## 参考：
