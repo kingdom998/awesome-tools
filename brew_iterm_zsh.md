@@ -1,6 +1,6 @@
 ## 安装brew（需要vpn----下载ShadowsocksX-NG.app.1.8.2.zip，解压进行配置）
 ```
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/instal
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 （安装日志输出类似brew-install.log）
 ```
 
@@ -44,7 +44,7 @@ brew install git
 ## 安装和配置oh-my-zsh
 ```
     * 下载安装
-    curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | ZSH=~/.dotfiles/zsh sh
+    curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 
     * 更改默认shell
     chsh -s /bin/zsh
@@ -56,7 +56,7 @@ brew install git
     git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 
     * 自动建议填充
-    git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+    git clone https://github.com/zsh-users/zsh-autosuggestions.git
 
     * vi ~/.zshrc打开配置文件，进行配置        
         plugins=(git autojump zsh-autosuggestions zsh-syntax-highlighting)   # 更新插件， autojump为plugins目录下已有插件
