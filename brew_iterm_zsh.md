@@ -11,15 +11,15 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 sudo rm -rf /usr/local/
 ```
 
-## 使用阿里云源：
+## 使用清华源：
 
 * 替换brew.git:
     ```
-    cd "$(brew --repo)" && git remote set-url origin https://mirrors.aliyun.com/homebrew/brew.git
+    cd "$(brew --repo)" && git remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git
 
 * 替换homebrew-core.git:
     ```
-    cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core" && git remote set-url origin https://mirrors.aliyun.com/homebrew/homebrew-core.git
+    cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core" && git remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git
     ```
 
 * 应用生效
@@ -29,7 +29,7 @@ sudo rm -rf /usr/local/
 
 * 替换homebrew-bottles:
     ```
-    echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.aliyun.com/homebrew/homebrew-bottles' >> ~/.bash_profile && source ~/.bash_profile
+    echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles' >> ~/.zshrc && source ~/.zshrc
     ```
 ## iterm2 安装
 ```
