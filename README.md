@@ -43,6 +43,7 @@ github：
 + [python](https://github.com/taizilongxu/interview_python)
 + [go](https://github.com/lifei6671/interview-go)
 + [求职](https://github.com/lietoumai/Awesome-offer)
++ [面试求职资料](https://github.com/CyC2018/CS-Notes)
 
 书籍：
 [经典编程书籍](https://github.com/jobbole/awesome-programming-books)
