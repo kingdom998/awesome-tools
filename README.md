@@ -40,9 +40,9 @@ github：
 + [百度脑图](http://naotu.baidu.com)
 
 面试求职：
-[python](https://github.com/taizilongxu/interview_python)
-[go](https://github.com/lifei6671/interview-go)
-[求职](https://github.com/lietoumai/Awesome-offer)
++ [python](https://github.com/taizilongxu/interview_python)
++ [go](https://github.com/lifei6671/interview-go)
++ [求职](https://github.com/lietoumai/Awesome-offer)
 
 书籍：
 [经典编程书籍](https://github.com/jobbole/awesome-programming-books)
