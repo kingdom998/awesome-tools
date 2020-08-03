@@ -63,6 +63,25 @@ brew install git
         ZSH_THEME="ys"  # 设置主题
 ```
 
+## 问题列表
+1. autojump not found. Please install it first
+```
+brew install autojump
+```
+
+2. plugin 'zsh-autosuggestions' not found
+```
+git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+```
+
+3.  Insecure completion-dependent directories detected:
+drwxrwxrwx  3 kd  admin   96  8  3 10:28 /usr/local/share/zsh
+drwxrwxrwx  4 kd  admin  128  8  3 13:41 /usr/local/share/zsh/site-functions
+```
+chmod 755 /usr/local/share/
+chmod 755 /usr/local/share/zsh/site-functions
+```
+
 ## 参考：
-    - [Mac下更换Homebrew镜像源](https://blog.csdn.net/lwplwf/article/details/79097565)
-    - [替换 homebrew 的源为阿里云](https://blog.csdn.net/xs18952904/article/details/87261603)
+    * [Mac下更换Homebrew镜像源](https://blog.csdn.net/lwplwf/article/details/79097565)
+    * [替换 homebrew 的源为阿里云](https://blog.csdn.net/xs18952904/article/details/87261603)
