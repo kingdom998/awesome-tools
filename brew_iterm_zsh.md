@@ -98,6 +98,7 @@ chsh -s /bin/zsh
    ```
    sudo vi /etc/hosts
    在最后一行添加 192.30.255.113 github.com
+   ```
 ```
    
 2. Error: The following directories are not writable by your user:
@@ -106,20 +107,21 @@ chsh -s /bin/zsh
 
    /usr/local/share/zsh/site-functions
 
-   ```
+```
    You should change the ownership of these directories to your user.
-   
+
     sudo chown -R $(whoami) /usr/local/share/zsh /usr/local/share/zsh/site-functions
+
    
-   
-   
+
+
    And make sure that your user has write permission.
-   
+
     chmod u+w /usr/local/share/zsh /usr/local/share/zsh/site-functions
    ```
 
 3. autojump not found. Please install it first
-```
+   ```
 brew install autojump
 ```
 
@@ -136,7 +138,6 @@ git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh
 ```
 sudo chmod 755 /usr/local/share/
 sudo chmod 755 /usr/local/share/zsh/site-functions
-```
 
 ## 参考：
 * [Mac下更换Homebrew镜像源](https://blog.csdn.net/lwplwf/article/details/79097565)
