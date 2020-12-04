@@ -77,16 +77,16 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
     rpm -ivh mysql-community-common-5.7.28-1.el7.x86_64.rpm mysql-community-libs-5.7.28-1.el7.x86_64.rpm  mysql-community-client-5.7.28-1.el7.x86_64.rpm mysql-community-server-5.7.28-1.el7.x86_64.rpm mysql-community-devel-5.7.28-1.el7.x86_64.rpm
     ```
 
-* 修改初始密码和授权
-```
-cat /var/log/mysqld.log| grep password # 获取密码
-mysql -u root -p # 登录 mysql
-alter user 'root'@'localhost' identified by '123456'; # 修改密码
-systemctl restart mysqld # 重启服务
-mysql -u root -p # 登录
-grant all privileges on `*.*` to 'root'@'%' identified by '123456' with grant option; # 授权
-flush privileges; # 刷新授权
-```
+    * 修改初始密码和授权
+    ```
+    cat /var/log/mysqld.log| grep password # 获取密码
+    mysql -u root -p # 登录 mysql
+    alter user 'root'@'localhost' identified by '123456'; # 修改密码
+    systemctl restart mysqld # 重启服务
+    mysql -u root -p # 登录
+    grant all privileges on `*.*` to 'root'@'%' identified by '123456' with grant option; # 授权
+    flush privileges; # 刷新授权
+    ```
 
 * [miniconda 安装及操作指南](https://blog.51cto.com/loufeng/2342003)
 * [Centos 7 下部署 Redis](https://xyzghio.xyz/dbInCentOS/)
